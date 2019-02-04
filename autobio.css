@@ -2,7 +2,14 @@
   box-sizing: border-box;
   border: solid 1px black;
 }
-img {
+h1 {
+  text-align: center;
+}
+div img {
   height: 64px;
   width:auto;
+}
+.logo-holder {
+  display:inline-block;
+  margin:1em;
 }
