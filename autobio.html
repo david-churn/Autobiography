@@ -8,31 +8,87 @@
     <link rel="stylesheet" href="./autobio.css">
   </head>
   <body>
-    <h1>David Churn</h1>
-    <img src="./david-portrait.jpg" alt="David's portrait">
-    <p id="experience_id">I am an experienced student transitioning from back-end database and development work to full stack web development.  I am looking forward to learning about this technology to update my skills.  It will allow me to play on computers in a new way.</p>
-    <h2>Iconography</h2>
-    <div id="curriculum" class="logo-holder">
-      <h3>Technologies Covered</h3>
-      <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/js.png" /></div>
-      <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/html.png" /></div>
-      <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/css.png" /></div>
+    <header>
+      <nav>
+        <div class="">
+          <img src="./David-logo.png" alt="Logo">
+        </div>
+        <div class="">
+          <ul>
+            <li><a href="#">Biography</a></li>
+            <li><a href="#">Tool Box</a></li>
+            <li><a href="#">Portfolio</a>
+              <ul class="dropdown">
+                <li><a href="#">Sunrise and Sunset</a></li>
+                <li><a href="#">Triva Quizzer</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>David Churn</h1>
+      <img src="./david-portrait.jpg" alt="David portrait" class="portrait">
+      <p id="experience_id">I am an experienced student transitioning from back-end database and development work to full stack web development.  I am looking forward to learning about this technology to update my skills.  It will allow me to play on computers in a new way.</p>
+      <ul>
+        <li>Application Developer</li>
+        <li>Database Consultant</li>
+        <li>Trainer</li>
+        <li>Performance Tuner</li>
+      </ul>
+      <h2>Tool Box</h2>
+      <div id="curriculum" class="logo-holder">
+        <h3>Technologies Covered</h3>
+        <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/js.png" /></div>
+        <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/html.png" /></div>
+        <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/css.png" /></div>
 
-      <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/linux.png" /></div>
-      <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/ubuntu.png" /></div>
-      <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/terminal.png" /></div>
-      <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/scrum.png" /></div>
-    </div>
-    <div id="experience" class="logo-holder">
-      <h3>Experience</h3>
-      <div class="logo-holder"><img src="./Db2logo.png" alt="Db2"></div>
-      <div class="logo-holder"><img src="cobol-logo.png" alt="COBOL"></div>
-      <div class="logo-holder"><img src="MQ.png" alt="MQ"></div>
-      <div class="logo-holder"><img src="Rexx-img-lg.png" alt="REXX"></div>
-    </div>
-    <div id="self-taught" class="logo-holder">
-      <h3>Self-taught</h3>
-      <div class="logo-holder"><img src="python.png" alt="Python"></div>
-    </div>
+        <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/linux.png" /></div>
+        <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/ubuntu.png" /></div>
+        <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/terminal.png" /></div>
+        <div class="logo-holder"><img src="https://tallgrassschool.com/wp-content/themes/tallgrass/library/images/curriculum-logos/scrum.png" /></div>
+      </div>
+      <div id="experience" class="logo-holder">
+        <h3>Experience</h3>
+        <div class="logo-holder"><img src="./Db2logo.png" alt="Db2"></div>
+        <div class="logo-holder"><img src="cobol-logo.png" alt="COBOL"></div>
+        <div class="logo-holder"><img src="MQ.png" alt="MQ"></div>
+        <div class="logo-holder"><img src="Rexx-img-lg.png" alt="REXX"></div>
+      </div>
+      <h2>Portfolio</h2>
+        <h3>JavaScript</h3>
+        <ul>
+          <li>Sunrise and Sunset time</li>
+          <li>Trivia Quizzer</li>
+        </ul>
+        <h3>Experience</h3>
+        <ul>
+          <li>SQL</li>
+            <ul>
+              <li>SQL PL scanner</li>
+              <li>Holiday Query</li>
+            </ul>
+          <li>VSAM Transparency</li>
+          <li>COBOL</li>
+            <ul>
+              <li>Synchronize Stored Procedure</li>
+              <li>?!?</li>
+            </ul>
+          <li>REXX</li>
+            <ul>
+              <li>Source Code Scanner</li>
+              <li>Program Finder</li>
+            </ul>
+        </ul>
+
+      <!-- <div id="self-taught" class="logo-holder">
+        <h3>Self-taught</h3>
+        <div class="logo-holder"><img src="python.png" alt="Python"></div>
+      </div> -->
+    </main>
+    <footer>
+      &copy 2019 David Churn
+    </footer>
   </body>
 </html>

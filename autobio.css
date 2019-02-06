@@ -1,6 +1,56 @@
+/* 2/5/2019  David Churn added a color scheme
+  scheme assist from Coolors.com
+  whitish #f6fedb
+  grayish #9d9d9d
+  lt blue #a6b1e1
+  blue #064789
+  redish #a31621
+ */
 * {
   box-sizing: border-box;
   border: solid 1px black;
+}
+nav {
+  min-height: 1em;
+}
+nav ul {
+  display:flex;
+  margin:0;
+  padding:0;
+}
+nav ul li {
+  list-style-type: none;
+  flex: 1;
+  text-align: center;
+}
+nav ul li a {
+  display: block;
+  padding: 0.5em 0;
+  text-decoration: none;
+  color: #f6fedb;
+  background: #a31621;
+  border-bottom:solid 1px #a31621;
+}
+nav ul li a:hover {
+  color: #a31621;
+  background: #f6fedb;
+  border-bottom:solid 1px #a31621;
+}
+nav ul.dropdown {
+  display:none;
+}
+nav ul.dropdown li {
+  display: block;
+}
+nav ul.dropdown li a {
+  border: solid 1px #a31621;
+}
+nav ul li:hover > ul.dropdown {
+  display:block;
+}
+body {
+  background: #f6fedb;
+  margin: 0em;
 }
 h1 {
   text-align: center;
@@ -12,4 +62,9 @@ div img {
 .logo-holder {
   display:inline-block;
   margin:1em;
+}
+footer {
+  color: #f6fedb;
+  background: #a31621;
+  text-align: center
 }
