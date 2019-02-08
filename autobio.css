@@ -6,12 +6,26 @@
   blue #064789
   redish #a31621
  */
+/*  Global characteristics */
 * {
   box-sizing: border-box;
-  border: solid 1px black;
+  border: dashed 1px black;
 }
+body {
+  background: #f6fedb;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+img {
+  height: 4em;
+  width: auto;
+  }
+
+/*  Navigation characteristics */
 nav {
-  min-height: 1em;
+  display: flex;
 }
 nav ul {
   display:flex;
@@ -19,9 +33,11 @@ nav ul {
   padding:0;
 }
 nav ul li {
+  width: 10em;
   list-style-type: none;
   flex: 1;
   text-align: center;
+  position:relative;
 }
 nav ul li a {
   display: block;
@@ -38,6 +54,8 @@ nav ul li a:hover {
 }
 nav ul.dropdown {
   display:none;
+  position: absolute;
+  width: 100%
 }
 nav ul.dropdown li {
   display: block;
@@ -48,21 +66,34 @@ nav ul.dropdown li a {
 nav ul li:hover > ul.dropdown {
   display:block;
 }
-body {
-  background: #f6fedb;
-  margin: 0em;
+.flex-box-logo {
+  flex:1;
 }
-h1 {
-  text-align: center;
+.flex-box-empty {
+  flex: 5;
 }
-div img {
-  height: 64px;
-  width:auto;
+.flex-box-menu {
+  flex: 2;
+}
+
+/* Main characteristics */
+main {
+  margin: 0 10%;
+}
+p {
+}
+li {
+}
+.portrait {
+  height: auto;
+  width: auto;
+  float: left;
 }
 .logo-holder {
   display:inline-block;
-  margin:1em;
+  margin: 1em;
 }
+/* Footer characteristics */
 footer {
   color: #f6fedb;
   background: #a31621;
