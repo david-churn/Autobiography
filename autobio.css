@@ -15,27 +15,22 @@ body {
   background: #f6fedb;
   margin: 0;
 }
-h1 {
-  text-align: center;
-}
 img {
   height: 4em;
   width: auto;
   }
+.redish {
+    background: #a31621;
+  }
 
 /*  Navigation characteristics */
-nav {
-  display: flex;
-}
 nav ul {
-  display:flex;
   margin:0;
   padding:0;
 }
 nav ul li {
   width: 10em;
   list-style-type: none;
-  flex: 1;
   text-align: center;
   position:relative;
 }
@@ -66,14 +61,47 @@ nav ul.dropdown li a {
 nav ul li:hover > ul.dropdown {
   display:block;
 }
-.flex-box-logo {
+.dflex {
+  display:flex;
+}
+.flex1 {
   flex:1;
 }
-.flex-box-empty {
+.flex2 {
+  flex: 2;
+}
+.flex3 {
+  flex: 3;
+}
+.flex4 {
+  flex: 4;
+}
+.flex5 {
   flex: 5;
 }
-.flex-box-menu {
-  flex: 2;
+.flex6 {
+  flex: 6;
+}
+.flex7 {
+  flex: 7;
+}
+.flex8 {
+  flex: 8;
+}
+.flex9 {
+  flex: 9;
+}
+.flex10 {
+  flex: 10;
+}
+.flex11 {
+  flex: 11;
+}
+.flex12 {
+  flex: 12;
+}
+.center {
+  text-align: center;
 }
 
 /* Main characteristics */
@@ -81,6 +109,7 @@ main {
   margin: 0 10%;
 }
 p {
+  line-height: 1.5em;
 }
 li {
 }
