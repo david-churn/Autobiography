@@ -15,9 +15,12 @@ body {
   background: #f6fedb;
   margin: 0;
 }
+nav img {
+  height: 2.2em;
+  margin-left: 1em;
+  }
 img {
   height: 4em;
-  width: auto;
   }
 .redish {
     background: #a31621;
