@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: $whitish;
+  font: sans-serif;
+  margin: 0;
+}
+.center {
+  text-align: center;
+}
+.redish {
+    background: $redish;
+  }
+
+/*  Navigation characteristics */
+nav img {
+  height: 2em;
+  }
+nav ul {
+  margin:0;
+  padding:0;
+}
+nav ul li {
+  width: 10em;
+  list-style-type: none;
+  text-align: center;
+  position:relative;
+}
+nav ul li a {
+  display: block;
+  padding: 0.5em 0;
+  text-decoration: none;
+  color: $whitish;
+  background: $redish;
+  border-bottom:solid 1px $redish;
+}
+nav ul li a:hover {
+  color: $redish;
+  background: $whitish;
+  border-bottom:solid 1px $redish;
+}
+nav ul.dropdown {
+  display:none;
+  position: absolute;
+  width: 100%
+}
+nav ul.dropdown li {
+  display: block;
+}
+nav ul.dropdown li a {
+  border: solid 1px $redish;
+}
+nav ul li:hover > ul.dropdown {
+  display:block;
+}
+.unit {
+  padding: 0.5em;
+  background-color: $ltblue;
+  margin: 0 0.5em;
+}
+.row {
+  display:flex;
+}
+.flex1 {
+  flex:1;
+}
+.flex2 {
+  flex: 2;
+}
+.flex3 {
+  flex: 3;
+}
+.flex4 {
+  flex: 4;
+}
+.flex5 {
+  flex: 5;
+}
+.flex6 {
+  flex: 6;
+}
+.flex7 {
+  flex: 7;
+}
+.flex8 {
+  flex: 8;
+}
+.flex9 {
+  flex: 9;
+}
+.flex10 {
+  flex: 10;
+}
+.flex11 {
+  flex: 11;
+}
+.flex12 {
+  flex: 12;
+}
+
+/* Main characteristics */
+main {
+  margin: 0 8%;
+}
+h1, h2, h3 {
+  text-decoration: underline;
+  font-family: serif;
+}
+p {
+  line-height: 1.5em;
+  max-width: 60em;
+}
+.portrait {
+  float: left;
+  margin: 0 1em;
+  border:solid 1px black;
+}
+.inblock {
+  display:inline-block;
+  margin: 0.5em;
+  min-height: 4em;
+  min-width: 4em;
+  vertical-align: top;
+  border:solid 1px black;
+}
+.iconic {
+  height: 4em;
+  width: 4em;
+}
+
+/* Footer characteristics */
+footer {
+  color: $whitish;
+  background: $redish;
+  font-family: serif;
+}
