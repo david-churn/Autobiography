@@ -6,12 +6,6 @@ body {
   font: sans-serif;
   margin: 0;
 }
-.center {
-  text-align: center;
-}
-.redish {
-    background: $redish;
-  }
 
 /*  Navigation characteristics */
 nav img {
@@ -101,32 +95,25 @@ nav ul li:hover > ul.dropdown {
 
 /* Main characteristics */
 main {
-  margin: 0 8%;
+  margin: 0 2em;;
 }
-h1, h2, h3 {
+h1 {
   text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6 {
   font-family: serif;
 }
 p {
   line-height: 1.5em;
   max-width: 60em;
 }
-.portrait {
-  float: left;
-  margin: 0 1em;
-  border:solid 1px black;
-}
 .inblock {
-  display:inline-block;
+  display: inline-block;
   margin: 0.5em;
   min-height: 4em;
   min-width: 4em;
   vertical-align: top;
   border:solid 1px black;
-}
-.iconic {
-  height: 4em;
-  width: 4em;
 }
 
 /* Footer characteristics */
@@ -135,3 +122,26 @@ footer {
   background: $redish;
   font-family: serif;
 }
+//  classes
+.blocks {
+  display: inline-block;
+  width: 10em;
+  padding: 0.5em;
+  background-color: $ltblue;
+  margin: 0 0.5em;
+}
+.center {
+  text-align: center;
+}
+.iconic {
+  height: 4em;
+  width: 4em;
+}
+.portrait {
+  float: left;
+  margin: 0 1em;
+  border:solid 1px black;
+}
+.redish {
+    background: $redish;
+  }
