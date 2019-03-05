@@ -6,39 +6,29 @@
     <title>David Churn autobiography</title>
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./styles.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
     <header>
-      <nav class="row">
-        <div class="flex1 redish">
-          <img src="./images/David-logo.png" alt="Logo">
-        </div>
-        <div class="flex7 redish"></div>
-        <div class="flex4 redish">
+      <div>
+        <img src="./images/David-logo.png" alt="Logo" class="iconic">
+      </div>
+      <nav>
           <ul class="row">
             <li class="flex1"><a href="#biography">Biography</a></li>
             <li class="flex1"><a href="#">Portfolio</a>
               <ul class="dropdown">
-                <li>
-                  <a href="#riseset">Sunrise and Sunset</a>
-                </li>
-                <li>
-                  <a href="#triviality">Trivality</a>
-                </li>
+                <li><a href="#riseset">Sunrise and Sunset</a></li>
+                <li><a href="#triviality">Trivality</a></li>
               </ul>
             </li>
             <li class="flex1"><a href="#">Technologies</a>
               <ul class="dropdown">
-                <li>
-                  <a href="#curriculum">Web Development</a>
-                </li>
-                <li>
-                  <a href="#mainframe">Mainframe Architect</a>
-                </li>
+                <li><a href="#curriculum">Web Development</a></li>
+                <li><a href="#mainframe">Mainframe Architect</a></li>
               </ul>
             </li>
           </ul>
-        </div>
       </nav>
     </header>
     <main>
@@ -50,9 +40,15 @@
       <p>While at DST, I wrote several REXX programs to assist development.  There are two notable programs--one scans through hundreds of libraries to find all the occurrences of a program and the other identified deprecated and non-standard practices.</p>
       <p>Before becoming a Database Consultant, I was a senior developer leading a small team to enhance the finance system to include functions from a new client.  Projects included splitting purchases into multiple accounts, special handling for low balance accounts, and splitting output files so they could be sent to two different print vendors.</p>
       <div class="row">
-        <a class="flex4 center" href="https://linkedin.com/in/david-churn-0ba723b" target="_blank">LinkedIn</a>
-        <a class="flex4 center" href="https://github.com/david-churn" target="_blank">GitHub</a>
-        <a class="flex4 center" href="./assets/DCCresume.pdf" target="_blank">resume</a>
+        <div class="flex4 center">
+          <a href="https://linkedin.com/in/david-churn-0ba723b" target="_blank">LinkedIn</a>
+        </div>
+        <div class="flex4 center">
+          <a href="https://github.com/david-churn" target="_blank">GitHub</a>
+        </div>
+        <div class="flex4 center">
+          <a href="./assets/DCCresume.pdf" target="_blank">resume</a>
+        </div>
       </div>
       <h2 id="portfolio">Portfolio</h2>
         <div class="row">
@@ -64,7 +60,6 @@
             <img class="iconic" src="./images/triviality.png" alt="trivia screen shot">
             <p>Triviality</p>
           </div>
-          <div class="flex6"></div>
         </div>
       <h2>Technologies</h2>
       <div id="curriculum" class="center">

@@ -6,7 +6,15 @@ body {
   font: sans-serif;
   margin: 0;
 }
-
+/* Footer characteristics */
+header, nav, footer {
+  color: $whitish;
+  background: $redish;
+  font-family: serif;
+}
+header div {
+  text-align: center;
+}
 /*  Navigation characteristics */
 nav img {
   height: 2em;
@@ -16,7 +24,6 @@ nav ul {
   padding:0;
 }
 nav ul li {
-  width: 10em;
   list-style-type: none;
   text-align: center;
   position:relative;
@@ -36,63 +43,28 @@ nav ul li a:hover {
 }
 nav ul.dropdown {
   display:none;
-  position: absolute;
   width: 100%
 }
 nav ul.dropdown li {
   display: block;
 }
 nav ul.dropdown li a {
+  background: darken($redish, 10%);
   border: solid 1px $redish;
 }
+nav ul.dropdown li a:hover {
+  background: $whitish;
+  color: $redish;
+}
 nav ul li:hover > ul.dropdown {
-  display:block;
+    display:block;
+    background: $whitish;
 }
 .unit {
   padding: 0.5em;
   background-color: $ltblue;
   margin: 0 0.5em;
 }
-.row {
-  display:flex;
-}
-.flex1 {
-  flex:1;
-}
-.flex2 {
-  flex: 2;
-}
-.flex3 {
-  flex: 3;
-}
-.flex4 {
-  flex: 4;
-}
-.flex5 {
-  flex: 5;
-}
-.flex6 {
-  flex: 6;
-}
-.flex7 {
-  flex: 7;
-}
-.flex8 {
-  flex: 8;
-}
-.flex9 {
-  flex: 9;
-}
-.flex10 {
-  flex: 10;
-}
-.flex11 {
-  flex: 11;
-}
-.flex12 {
-  flex: 12;
-}
-
 /* Main characteristics */
 main {
   margin: 0 2em;;
@@ -116,19 +88,15 @@ p {
   border:solid 1px black;
 }
 
-/* Footer characteristics */
-footer {
-  color: $whitish;
-  background: $redish;
-  font-family: serif;
-}
 //  classes
 .blocks {
   display: inline-block;
+  height: 10em;
   width: 10em;
   padding: 0.5em;
   background-color: $ltblue;
   margin: 0 0.5em;
+    vertical-align: top;
 }
 .center {
   text-align: center;
@@ -141,7 +109,5 @@ footer {
   float: left;
   margin: 0 1em;
   border:solid 1px black;
+  max-width: 100%;
 }
-.redish {
-    background: $redish;
-  }
